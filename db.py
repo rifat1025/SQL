@@ -12,6 +12,7 @@ class DBhelper:
             )
             self.mycursor=self.conn.cursor()
             
+            
         except:
             print("connection failed")
         else:
